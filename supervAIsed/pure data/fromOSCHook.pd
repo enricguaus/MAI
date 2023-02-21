@@ -1,0 +1,158 @@
+#N canvas 337 108 1084 563 12;
+#X obj 227 285 oscparse;
+#X obj 227 261 netreceive -u -b;
+#X msg 227 185 listen 57120;
+#X obj 227 332 list trim;
+#X floatatom 227 405 5 0 0 0 - - -;
+#X floatatom 267 405 5 0 0 0 - - -;
+#X obj 227 357 route accelerometer;
+#X obj 227 380 route x y z;
+#X floatatom 307 405 5 0 0 0 - - -;
+#X obj 367 357 route orientation;
+#X obj 367 382 route alpha beta gamma;
+#X floatatom 367 406 5 0 0 0 - - -;
+#X floatatom 408 406 5 0 0 0 - - -;
+#X floatatom 448 406 5 0 0 0 - - -;
+#X obj 226 13 tgl 15 0 empty empty OSC_OSCHook 17 7 0 10 -262130 -1
+-1 1 1;
+#X obj 226 59 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 286 59 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 226 34 moses 0.5;
+#X obj 253 82 s \$0-oschook_connect;
+#X obj 226 106 s \$0-oschook_disconnect;
+#X msg 140 33 \; pd dsp \$1;
+#X obj 140 13 tgl 15 0 empty empty DSP 17 7 0 10 -262130 -1 -1 0 1
+;
+#X obj 226 158 r \$0-oschook_connect;
+#X obj 235 209 r \$0-oschook_disconnect;
+#X msg 235 236 listen 0;
+#X msg 544 230 disconnect;
+#X floatatom 535 379 0 0 0 0 - - -;
+#X obj 565 378 print backward;
+#X msg 535 181 connect localhost 6448;
+#X obj 535 351 netsend -u -b;
+#X obj 554 326 list trim;
+#X obj 554 303 list prepend send;
+#X obj 554 279 oscformat /wek/inputs;
+#X obj 535 158 r \$0-weki_connect;
+#X obj 544 205 r \$0-weki_disconnect;
+#X obj 535 405 tgl 15 0 empty empty empty 17 7 0 10 -204786 -1 -1 1
+1;
+#X obj 535 15 tgl 15 0 empty empty OSC_Wekinator 17 7 0 10 -262130
+-1 -1 1 1;
+#X obj 535 61 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 595 61 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 535 36 moses 0.5;
+#X obj 562 84 s \$0-weki_connect;
+#X obj 535 108 s \$0-weki_disconnect;
+#X obj 227 428 pack \$1 \$2 \$3 \$4 \$5 \$6;
+#X obj 227 452 s \$0-oschookdata;
+#X obj 554 255 r \$0-oschookdata;
+#X msg 717 182 listen 12000;
+#X obj 717 260 netreceive -u -b;
+#X obj 717 284 oscparse;
+#X obj 717 333 unpack s s f f f f;
+#X obj 717 414 vsl 35 128 0 1 0 0 empty empty empty 0 -9 0 10 -204786
+-1 -1 6991 1;
+#X obj 770 414 vsl 35 128 0 1 0 0 empty empty empty 0 -9 0 10 -204786
+-1 -1 7184 1;
+#X obj 823 414 vsl 35 128 0 1 0 0 empty empty empty 0 -9 0 10 -204786
+-1 -1 6124 1;
+#X obj 876 414 vsl 35 128 0 1 0 0 empty empty empty 0 -9 0 10 -204786
+-1 -1 1 1;
+#X obj 717 158 r \$0-weki_connect;
+#X obj 725 206 r \$0-weki_disconnect;
+#X msg 725 232 listen 0;
+#X obj 298 308 spigot;
+#X obj 337 287 tgl 15 0 empty empty OSCHook_monitor 17 7 0 10 -258113
+-1 -1 1 1;
+#X obj 853 308 spigot;
+#X obj 892 287 tgl 15 0 empty empty Wekinator_monitor 17 7 0 10 -258113
+-1 -1 0 1;
+#X obj 298 331 print OSCHook-output;
+#X obj 853 331 print Wekinator-output;
+#X obj 724 30 vradio 15 1 0 2 empty empty Wekinator_mode 0 -8 0 10
+-262130 -1 -1 1;
+#X obj 724 66 s \$0-weki_mode;
+#X obj 718 386 scale;
+#X obj 769 386 scale;
+#X obj 823 386 scale;
+#X obj 876 386 scale;
+#X obj 935 354 r \$0-weki_mode;
+#X text 8 8 Enric Guaus \; 10/03/2021 \; Lutheria Digital \; ENTI;
+#X text 740 28 NN;
+#X text 741 44 DTW;
+#X connect 0 0 3 0;
+#X connect 0 0 56 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 6 0;
+#X connect 3 0 9 0;
+#X connect 4 0 42 0;
+#X connect 5 0 42 1;
+#X connect 6 0 7 0;
+#X connect 7 0 4 0;
+#X connect 7 1 5 0;
+#X connect 7 2 8 0;
+#X connect 8 0 42 2;
+#X connect 9 0 10 0;
+#X connect 10 0 11 0;
+#X connect 10 1 12 0;
+#X connect 10 2 13 0;
+#X connect 11 0 42 3;
+#X connect 12 0 42 4;
+#X connect 13 0 42 5;
+#X connect 14 0 17 0;
+#X connect 15 0 19 0;
+#X connect 16 0 18 0;
+#X connect 17 0 15 0;
+#X connect 17 1 16 0;
+#X connect 21 0 20 0;
+#X connect 22 0 2 0;
+#X connect 23 0 24 0;
+#X connect 24 0 1 0;
+#X connect 25 0 29 0;
+#X connect 26 0 35 0;
+#X connect 28 0 29 0;
+#X connect 29 0 26 0;
+#X connect 29 1 27 0;
+#X connect 30 0 29 0;
+#X connect 31 0 30 0;
+#X connect 32 0 31 0;
+#X connect 33 0 28 0;
+#X connect 34 0 25 0;
+#X connect 36 0 39 0;
+#X connect 37 0 41 0;
+#X connect 38 0 40 0;
+#X connect 39 0 37 0;
+#X connect 39 1 38 0;
+#X connect 42 0 43 0;
+#X connect 44 0 32 0;
+#X connect 45 0 46 0;
+#X connect 46 0 47 0;
+#X connect 47 0 48 0;
+#X connect 47 0 58 0;
+#X connect 48 2 64 0;
+#X connect 48 3 65 0;
+#X connect 48 4 66 0;
+#X connect 48 5 67 0;
+#X connect 53 0 45 0;
+#X connect 54 0 55 0;
+#X connect 55 0 46 0;
+#X connect 56 0 60 0;
+#X connect 57 0 56 1;
+#X connect 58 0 61 0;
+#X connect 59 0 58 1;
+#X connect 62 0 63 0;
+#X connect 64 0 49 0;
+#X connect 65 0 50 0;
+#X connect 66 0 51 0;
+#X connect 67 0 52 0;
+#X connect 68 0 64 1;
+#X connect 68 0 65 1;
+#X connect 68 0 66 1;
+#X connect 68 0 67 1;
