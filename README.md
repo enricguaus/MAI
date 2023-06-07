@@ -1,6 +1,6 @@
 # MAI
 Musicians and Artificial Intelligence  
-by Fèlix Pastor ([web](https://felixpastor.wordpress.com/) | [ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/)) and Enric Guaus ([web](https://enricguaus.wordpress.com/) | [ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/))  
+by Fèlix Pastor ([ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/)) and Enric Guaus ([ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/))  
 SONAR+D  
 Friday, June 16, 2023, 12:00-13:00.  
 Lounge+D
@@ -23,3 +23,6 @@ Here is a set of very simple patches
 * Please, use it and send feedback!
 
 ## Lectures
+
+* Cavall Fort
+* TBO
