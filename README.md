@@ -1,7 +1,7 @@
 # MAI
 Musicians and Artificial Intelligence  
+by Fèlix Pastor ([https://felixpastor.wordpress.com/](web)|[https://www.esmuc.cat/](ESMUC)|[http://sheepdog.es/](Sheepdog)) and Enric Guaus ([https://enricguaus.wordpress.com/](web)|[https://www.esmuc.cat/](ESMUC)|[http://sheepdog.es/](Sheepdog))  
 SONAR+D  
-15-17 June 2023. 
-Lounge+D (Friday, 12:00-13:00)
-
+Friday, June 16, 2023, 12:00-13:00. 
+Lounge+D
 
