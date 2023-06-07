@@ -24,7 +24,6 @@ Here is a set of very simple patches
 * Convert to VST plugins for DAWs (eliminates Blackhole, MIDI and OSC configurations)
 * Please, use it and send feedback!
 
-## Lectures
+## Lectures
 
-* Cavall Fort
-* TBO
+* Born, G. (2021). Artistic Research and Music Research: Epistemological Status, Interdisciplinary Forms, and Institutional Conditions. In A. Huber, D. Ingrisch, T. Kaufmann, J. Kretz, G. Schröder & T. Zembylas (Ed.), Knowing in Performing: Artistic Research in Music and the Performing Arts (pp. 35-50). Bielefeld: transcript Verlag. 
