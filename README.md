@@ -18,6 +18,8 @@ The “Musicians and Artificial Intelligence” (MAI) project seeks to explore t
 
 For that, we want to promote the use of these pre-cooked and ready-to-use patches between musicians as a starting point for further exploration. We will promote its use between our students, but the code and installation guides are publicly available for the whole community.
 
+Please, navigate between de [supervAIsed](/supervAIsed) and [unsupervAIsed](/unsupervAIsed) folders for further information.
+
 Feedback is welcome.
 
 ## Resources
