@@ -1,17 +1,19 @@
 # supervAIsed
 
-Pure Data sketch for supervised machine learning
+Pure Data patch for timbre based supervised audio classification based on an Artificial Neural Network.
+
+![supervAIsed.png](./supervAIsed.png)
 
 ## Dependencies
 
 * timbreID
-* ml.lib
+* ml.lib 
 
-![supervAIsed.png](./supervAIsed.png)
+## Instructions
 
-## Description
+* Install [Pure Data](https://puredata.info/).
+* Install [timbreID](https://github.com/wbrent/timbreIDLib) and [ml.lib](https://github.com/irllabs/ml-lib) externals.
 
-Timbre based audio classification into 4 categories using an Artificial Neural Network with 4 hidden layers.
  
 ## TODO List
 
