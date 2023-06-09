@@ -16,7 +16,9 @@ However, it is well known that machine learning algorithms tend to propose model
 
 The “Musicians and Artificial Intelligence” (MAI) project seeks to explore the intersection between the musical and scientific approaches to AI through a showcase of two PureData patches that implement two different architectures for creating AI models that can be mapped to a DAW or any other synthesis software via OSC or MIDI.
 
-For that, we want to promote the use of these pre-cooked and ready-to-use patches between musicians as a starting point for further exploration. We will promote its use between our students, but the code and installation guides are publicly available for the whole community. Please, use, modify and send feedback on it's use.   
+For that, we want to promote the use of these pre-cooked and ready-to-use patches between musicians as a starting point for further exploration. We will promote its use between our students, but the code and installation guides are publicly available for the whole community.
+
+Feedback is welcome.
 
 ## Resources
 
@@ -31,7 +33,7 @@ Not available yet.
 * Convert to VST plugins for DAWs (eliminates Blackhole, MIDI and OSC configurations)
 * Please, use it and send feedback!
 
-## Acknowledgments
+## Acknowledgments
 
 This work has been parly funded by the Escola Superior de Música de Catalunya ([ESMUC](https://www.esmuc.cat/)) 
 
