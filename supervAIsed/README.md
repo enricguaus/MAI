@@ -1,6 +1,6 @@
 # supervAIsed
 
-Pure Data patch for timbre based supervised audio classification based on an Artificial Neural Network.
+Pure Data patch for timbre based supervised audio classification on an Artificial Neural Network.
 
 ![supervAIsed.png](./supervAIsed.png)
 
