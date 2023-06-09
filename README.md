@@ -29,12 +29,12 @@ Feedback is welcome.
 
 ## Future work
 
-* Convert to VST plugins for DAWs (eliminates Blackhole, MIDI and OSC configurations)
+* Convert to VST plugins for DAWs (eliminates Blackhole, MIDI and OSC configurations).
 * Please, use it and send feedback!
 
 ## Acknowledgments 
 
-This work has been partly funded by the Escola Superior de Música de Catalunya ([ESMUC](https://www.esmuc.cat/)) 
+This work has been partly funded by the Escola Superior de Música de Catalunya ([ESMUC](https://www.esmuc.cat/)) .
 
 ## Lectures
 
