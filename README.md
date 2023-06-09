@@ -24,7 +24,7 @@ Feedback is welcome.
 
 ## Resources
 
-* [code)(/supervAIsed/puredata) and [details](/supervAIsed) for supervAIsed architecture.
+* [code](/supervAIsed/puredata) and [details](/supervAIsed) for supervAIsed architecture.
 * [code](/unsupervAIsed/puredata) and [details](/unsupervAIsed) for unsupervAIsed architecture.
 
 ## Future work
