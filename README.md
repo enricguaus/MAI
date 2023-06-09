@@ -33,9 +33,9 @@ Not available yet.
 * Convert to VST plugins for DAWs (eliminates Blackhole, MIDI and OSC configurations)
 * Please, use it and send feedback!
 
-## Acknowledgments
+##Acknowledgments 
 
-This work has been parly funded by the Escola Superior de Música de Catalunya ([ESMUC](https://www.esmuc.cat/)) 
+This work has been partly funded by the Escola Superior de Música de Catalunya ([ESMUC](https://www.esmuc.cat/)) 
 
 ## Lectures
 
