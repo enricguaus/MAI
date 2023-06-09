@@ -24,7 +24,8 @@ Feedback is welcome.
 
 ## Resources
 
-Not available yet.
+* (code)[/supervAIsed/puredata] and (details)[/supervAIsed] for supervAIsed architecture.
+* (code)[/unsupervAIsed/puredata] and (details)[/unsupervAIsed] for unsupervAIsed architecture.
 
 ## Conclusions
 
