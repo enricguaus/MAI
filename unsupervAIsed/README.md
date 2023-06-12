@@ -20,9 +20,24 @@ Pure Data patch for timbre based unsupervised audio classification using k-means
   * Output probabilities (soft scaled between [0..1]) will be automatically mapped in a range [0..127].
   * Numeric values are shown in the green numeric boxes at the mid-right corner of the patch (assigned cluster and proximity).
   * Clusters are visualized in the colorful buttons at the mid-right corner of the patch.
-  * Press the "MIDI Out" toggle to start sending data
-    * clusters are sent as midi controls [1..8]
-    * proximity are sent as midi data [0..127]
+
+## Sending MIDI
+* Set your MIDI device in the Preferences -> MIDI menu.
+* Press the "MIDI Out" toggle to start sending data.
+  * clusters are sent as midi controls [1..8].
+  * proximity are sent as midi data [0..127].
  
  ## Connecting to external apps
+ 
+ ![vcv_example.png](./vcv_example.png)
+
+* Open an external app with possibility to be controlled by external signals (i.e. MIDI or OSC).
+* In this example, we propose a simple control of the starting point of the multi file player in VCV.
+  * Add the "MIDI MAP" module in your VCV patch.
+  * Configure the MIDI listener in the module.
+  * Click on the "Unmpapped" icon in the module.
+  * Repeat N times (N=number of clusters):
+    * in Puredata, set the (red)  "Controller 4 MIDI mapping" selector to the i-th position.
+    * in Puredata, move the (red) "value 4 MIDI mapping" value.
+    * in VCV, move the knob you want to be remotely controlled.
  
