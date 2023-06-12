@@ -1,4 +1,4 @@
-![esmuc.png](./esmuc.png)
+![esmuc.png](./esmuc.png | width=100)
 # MAI
 Musicians and Artificial Intelligence  
 by Fèlix Pastor ([ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/)) and Enric Guaus ([ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/))  
