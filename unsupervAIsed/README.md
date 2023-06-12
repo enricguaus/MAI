@@ -41,3 +41,11 @@ Pure Data patch for timbre based unsupervised audio classification using k-means
     * in Puredata, move the (red) "value 4 MIDI mapping" value.
     * in VCV, move the knob you want to be remotely controlled.
  
+## Dependencies
+
+* [timbreID](https://github.com/wbrent/timbreIDLib): An audio analysis library for Pure Data.
+* [ml.lib](https://github.com/irllabs/ml-lib): A library of machine learning externals for Max and Pure Data.
+* [zexy](https://git.iem.at/pd/zexy): The swiss army knife for Pure Data.
+
+## TODO List
+* Think good MIDI mapping strategies
