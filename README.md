@@ -1,12 +1,12 @@
 # MAI
 
-![esmuc.png](./esmuc.png)  
-
 Musicians and Artificial Intelligence  
 by Fèlix Pastor ([ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/)) and Enric Guaus ([ESMUC](https://www.esmuc.cat/) | [Sheepdog](http://sheepdog.es/))  
 SONAR+D  
 Friday, June 16, 2023, 12:00-13:00.  
 [Lounge+D](https://sonar.es/en/activity/lounged-viernes)
+
+![esmuc.png](./esmuc.png)  
 
 ## Introduction
 In the last years, Artificial Intelligence has provided numerous breakthroughs within the music industries.  Automatic music reccommendation (p.ex. [Spotify](https://open.spotify.com/?)), copyright management companies using AI (p.ex. [BMAT](https://www.bmat.com/)), free online text to speech applications (p.ex. [Murf](https://murf.ai/)) or noise removal plugins (p.ex. [LALAL.AI](https://www.lalal.ai/voice-cleaner/)), among others, are good examples of that. 
