@@ -16,4 +16,13 @@ Pure Data patch for timbre based unsupervised audio classification using k-means
 * Wait for a while until Puredata responds again (please, be patient!)
   * You can save this model by pressing the "Write" button at the upper-right corner of the patch (optional).
   * You can load a previous model by pressing the "Read" button at the upper-right corner of the patch (optional).
-* Push the "Play" button to start. 
+* Press the "Play" toggle to start classifying new data
+  * Output probabilities (soft scaled between [0..1]) will be automatically mapped in a range [0..127].
+  * Numeric values are shown in the green numeric boxes at the mid-right corner of the patch (assigned cluster and proximity).
+  * Clusters are visualized in the colorful buttons at the mid-right corner of the patch.
+  * Press the "MIDI Out" toggle to start sending data
+    * clusters are sent as midi controls [1..8]
+    * proximity are sent as midi data [0..127]
+ 
+ ## Connecting to external apps
+ 
